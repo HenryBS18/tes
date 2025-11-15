@@ -117,7 +117,7 @@ Get all chats.
 Create new admin chat.
 
 ### Headers
-```json
+```
 Token: <your-token>
 ```
 
@@ -145,7 +145,7 @@ _No response body._
 Create new user chat.
 
 ### Headers
-```json
+```
 SessionId: <your-sessionid>
 ```
 
@@ -172,7 +172,7 @@ _No response body._
 Read a chat.
 
 ### Headers
-```json
+```
 Token: <your-token>
 ```
 
