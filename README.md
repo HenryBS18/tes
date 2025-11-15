@@ -2,14 +2,16 @@
 All API prefixed with **/api**
 
 ## Authentication
-- POST /register
-- POST /login
-- POST /token
+- [POST /register](#post-register)
+- [POST /login](#post-login)
+- [POST /token](#post-token)
 
-### POST /register
+---
+
+## POST /register
 Register new user.
 
-#### Body
+### Body
 ```json
 {
   "username": "string",
@@ -17,10 +19,10 @@ Register new user.
 }
 ```
 
-#### Success Response (200)
+### Success Response (200)
 _No response body._
 
-#### Error Response (400)
+### Error Response (400)
 ```json
 {
   "message": "string"
@@ -73,10 +75,10 @@ _No response body._
 ---
 
 ## Chat
-- GET /chat
-- POST /chat/admin
-- POST /chat/user
-- PATCH /chat/read
+- [GET /chat](#get-chat)
+- [POST /chat/admin](#post-chatadmin)
+- [POST /chat/user](#post-chatuser)
+- [PATCH /chat/read](#patch-chatread)
 
 ---
 
@@ -183,10 +185,10 @@ _No response body._
 ---
 
 ## Session
-- POST /session
-- GET /session
-- GET /session/:id
-- GET /sesion/:id/admin
+- [POST /session](#post-session)
+- [GET /session/check](#get-sessioncheck)
+- [GET /session/:id](#get-sessionid)
+- [GET /session/:id/admin](#get-sessionidadmin)
 
 ---
 
