@@ -6,8 +6,6 @@ All API prefixed with **/api**
 - POST /login
 - POST /token
 
----
-
 ## POST /register
 Register new user.
 
@@ -28,8 +26,6 @@ _No response body._
   "message": "string"
 }
 ```
-
----
 
 ## POST /login
 Login and get token.
@@ -56,14 +52,12 @@ Login and get token.
 }
 ```
 
----
-
 ## POST /token
 Validate token.
 
 ### Headers
 ```
-Token: <your-token>
+Token: <token>
 ```
 
 ### Success Response (200)
@@ -118,7 +112,7 @@ Create new admin chat.
 
 ### Headers
 ```
-Token: <your-token>
+Token: <token>
 ```
 
 ### Body
@@ -146,7 +140,7 @@ Create new user chat.
 
 ### Headers
 ```
-SessionId: <your-sessionid>
+SessionId: <sessionid>
 ```
 
 ### Body
@@ -173,7 +167,7 @@ Read a chat.
 
 ### Headers
 ```
-Token: <your-token>
+Token: <token>
 ```
 
 ### Success Response (200)
@@ -220,7 +214,7 @@ Validate session id.
 
 ### Headers
 ```
-SessionId: <your-sessionid>
+SessionId: <sessionid>
 ```
 
 ### Success Response (200)
@@ -244,7 +238,7 @@ Get session chats.
 
 ### Headers
 ```
-SessionId: <your-sessionid>
+SessionId: <sessionid>
 ```
 
 ### Success Response (200)
@@ -273,7 +267,7 @@ Get session chats.
 
 ### Headers
 ```
-Token: <your-token>
+Token: <token>
 ```
 
 ### Success Response (200)
