@@ -8,10 +8,10 @@ All API prefixed with **/api**
 
 ---
 
-## POST /register
+### POST /register
 Register new user.
 
-### Body
+#### Body
 ```json
 {
   "username": "string",
@@ -19,10 +19,10 @@ Register new user.
 }
 ```
 
-### Success Response (200)
+#### Success Response (200)
 _No response body._
 
-### Error Response (400)
+#### Error Response (400)
 ```json
 {
   "message": "string"
